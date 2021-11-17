@@ -394,7 +394,7 @@ mv:currentValue  a        owl:DatatypeProperty , rdf:Property ;
         rdfs:comment      "Indicates the current value of the real-time capacity."@en ;
         rdfs:domain       mv:RealTimeCapacity ;
         rdfs:isDefinedBy  mv: ;
-        rdfs:label        "current value"@en , "aktueller Wert"@de , "valeur courante"@fr ;
+        rdfs:label        "current value"@en , "aktueller Wert"@de ;
         rdfs:range        xsd:integer ;
         dct:created       "2015-05-15"^^xsd:date ;
         dct:modified      "2018-01-12"^^xsd:date ;
