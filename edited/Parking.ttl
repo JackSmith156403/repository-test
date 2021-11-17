@@ -115,12 +115,11 @@ mv:AutomatedParkingGarage
         vs:term_status    "stable"@en .
 
 mv:arrangement  a         owl:ObjectProperty , rdf:Property ;
-        rdfs:comment      "Indicates in which pattern a parking space is arrangedd indicateddd...."@en ;
         rdfs:domain       [ a            owl:Class ;
                             owl:unionOf  ( mv:ParkingSpace mv:ParkingFacility )
                           ] ;
         rdfs:isDefinedBy  mv: ;
-        rdfs:label        "Anordnung"@de , "arrangement pattern "@en ;
+        rdfs:label        "arrangement pattern "@en , "Anordnung asd asda s"@de ;
         rdfs:range        mv:ArrangementPattern ;
         dct:created       "2017-05-10"^^xsd:date ;
         dct:modified      "2018-01-12"^^xsd:date ;
