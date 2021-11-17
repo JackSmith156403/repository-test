@@ -120,7 +120,7 @@ mv:arrangement  a         owl:ObjectProperty , rdf:Property ;
                             owl:unionOf  ( mv:ParkingSpace mv:ParkingFacility )
                           ] ;
         rdfs:isDefinedBy  mv: ;
-        rdfs:label        "Anordnung asd asda s"@de ;
+        rdfs:label        "Anordnung asd asda s"@de , "arrangement patternn"@en ;
         rdfs:range        mv:ArrangementPattern ;
         dct:created       "2017-05-10"^^xsd:date ;
         dct:modified      "2018-01-12"^^xsd:date ;
