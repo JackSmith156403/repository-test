@@ -115,7 +115,6 @@ mv:AutomatedParkingGarage
         vs:term_status    "stable"@en .
 
 mv:arrangement  a         owl:ObjectProperty , rdf:Property ;
-        rdfs:comment      "Indicates in which pattern a parking space is arrangedd indicated"@en ;
         rdfs:domain       [ a            owl:Class ;
                             owl:unionOf  ( mv:ParkingSpace mv:ParkingFacility )
                           ] ;
